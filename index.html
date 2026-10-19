@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Empório Burguer Gourmet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <a class="nav-logo" href="#" aria-label="Logo — reservado para imagem futura">
+        <span class="img-placeholder logo-placeholder">logo.png</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#">Restuarent</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a class="nav-login" href="#">Login</a>
+        <a class="btn btn-registration" href="#">Registration</a>
+      </div>
+    </nav>
+
+    <div class="hero-body">
+      <div class="hero-left">
+        <h1 class="hero-title">
+          Be the quickest<br />
+          <span class="underline-wrap">in your food
+            <svg class="title-underline" viewBox="0 0 420 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M4 13C70 4 180 2 250 5C310 8 370 12 416 8" stroke="#FFCC27" stroke-width="5" stroke-linecap="round" />
+            </svg>
+          </span><br />
+          delivery.
+        </h1>
+
+        <svg class="title-arrow" viewBox="0 0 90 70" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M6 8C30 6 62 12 74 30C82 42 78 52 70 58" stroke="#FFCC27" stroke-width="2.5" stroke-linecap="round" />
+          <path d="M70 44L70 58L56 55" stroke="#FFCC27" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+
+        <p class="hero-sub">
+          job is filling your tasteful with delicious food<br />
+          and with quick and free delivery
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="11" cy="11" r="7" stroke="#0a0a0a" stroke-width="2" />
+              <path d="M16.5 16.5L21 21" stroke="#0a0a0a" stroke-width="2" stroke-linecap="round" />
+            </svg>
+            Find Restuarant
+          </a>
+          <a class="btn btn-outline" href="#">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M4 2.5L13 8L4 13.5V2.5Z" stroke="#ffffff" stroke-width="1.6" stroke-linejoin="round" />
+            </svg>
+            How to Order
+          </a>
+        </div>
+
+        <div class="social-proof">
+          <div class="avatars">
+            <span class="img-placeholder avatar">1</span>
+            <span class="img-placeholder avatar">2</span>
+            <span class="img-placeholder avatar">3</span>
+            <span class="avatar-count">5M+</span>
+          </div>
+          <span class="social-proof-text">Happy customers</span>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <img class="hero-image" src="images/hero.png" alt="Empório Burguer Gourmet — hambúrguer artesanal, batata frita e refrigerante" />
+
+        <div class="review-card">
+          <p class="review-title">5000+ Happy<br />Customers</p>
+          <div class="review-bottom">
+            <span class="stars">★★★★★</span>
+            <span class="review-count">(25k Review)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="features">
+      <div class="feature">
+        <span class="feature-icon" aria-hidden="true">
+          <svg width="34" height="34" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="8" cy="23" r="3.5" stroke="#FFCC27" stroke-width="2" />
+            <circle cx="22" cy="23" r="3.5" stroke="#FFCC27" stroke-width="2" />
+            <path d="M4 8H14V19H4V8Z" stroke="#FFCC27" stroke-width="2" stroke-linejoin="round" />
+            <path d="M14 12H20L24 17V19H14V12Z" stroke="#FFCC27" stroke-width="2" stroke-linejoin="round" />
+            <path d="M6 8V5H11V8" stroke="#FFCC27" stroke-width="2" stroke-linejoin="round" />
+            <path d="M20 6H25" stroke="#FFCC27" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </span>
+        <span class="feature-label">Fastest Delivery</span>
+      </div>
+
+      <div class="feature">
+        <span class="feature-icon" aria-hidden="true">
+          <svg width="34" height="34" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 13C8 10 11 8 16 8C21 8 24 10 24 13" stroke="#FFCC27" stroke-width="2" stroke-linecap="round" />
+            <path d="M6 16H26" stroke="#FFCC27" stroke-width="2" stroke-linecap="round" />
+            <path d="M7 19H25" stroke="#FFCC27" stroke-width="2" stroke-linecap="round" />
+            <path d="M8 22H24C24 25 21 27 16 27C11 27 8 25 8 22Z" stroke="#FFCC27" stroke-width="2" stroke-linejoin="round" />
+            <path d="M18 5V8" stroke="#FFCC27" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </span>
+        <span class="feature-label">Best Quality Food</span>
+      </div>
+
+      <div class="feature">
+        <span class="feature-icon circle" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7" cy="5" r="1.6" fill="#FFCC27" />
+            <path d="M7 8V17" stroke="#FFCC27" stroke-width="2" stroke-linecap="round" />
+            <path d="M4.5 8V12C4.5 13.4 5.6 14.5 7 14.5C8.4 14.5 9.5 13.4 9.5 12V8" stroke="#FFCC27" stroke-width="2" stroke-linejoin="round" />
+            <circle cx="16.5" cy="5" r="1.6" fill="#FFCC27" />
+            <path d="M16.5 8V17" stroke="#FFCC27" stroke-width="2" stroke-linecap="round" />
+            <path d="M13.5 8C13.5 10.5 14.5 12 16.5 12C18.5 12 19.5 10.5 19.5 8" stroke="#FFCC27" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </span>
+        <span class="feature-label">Enjoy Your Meal</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>FEITO NA HORA</span><span class="ticker-dot">●</span>
+      <span>BLEND ARTESANAL 180G</span><span class="ticker-dot">●</span>
+      <span>MOLHO DA CASA</span><span class="ticker-dot">●</span>
+      <span>PÃO BRIOCHE</span><span class="ticker-dot">●</span>
+      <span>ENTREGA RÁPIDA</span><span class="ticker-dot">●</span>
+      <span>SABOR DE VERDADE</span><span class="ticker-dot">●</span>
+      <span>FEITO NA HORA</span><span class="ticker-dot">●</span>
+      <span>BLEND ARTESANAL 180G</span><span class="ticker-dot">●</span>
+      <span>MOLHO DA CASA</span><span class="ticker-dot">●</span>
+      <span>PÃO BRIOCHE</span><span class="ticker-dot">●</span>
+      <span>ENTREGA RÁPIDA</span><span class="ticker-dot">●</span>
+      <span>SABOR DE VERDADE</span><span class="ticker-dot">●</span>
+    </div>
+  </div>
+
+  <section class="menu" id="menu">
+    <div class="menu-topbar anim">
+      <span class="menu-brand">Sabor <span class="amp">&amp;</span> Arte</span>
+      <button class="cart-btn" id="cart-btn" type="button" aria-label="Sacola">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M6 8H18L19 21H5L6 8Z" stroke="#ffffff" stroke-width="1.8" stroke-linejoin="round" />
+          <path d="M9 8V6.5C9 4.57 10.57 3 12.5 3H13C14.93 3 16.5 4.57 16.5 6.5V8" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" />
+        </svg>
+        <span class="cart-badge" id="cart-badge" hidden>0</span>
+      </button>
+    </div>
+
+    <div class="menu-inner">
+      <div class="menu-head">
+        <div class="promo-stack">
+          <div class="promo-card anim-left">
+            <span class="promo-badge">Feito na hora</span>
+            <h2 class="promo-title">O melhor sabor,<br />direto para você.</h2>
+            <p class="promo-text">
+              Da nossa chapa pra sua mesa: pão brioche tostado na hora, blend
+              artesanal de 180g, queijo derretendo e o molho da casa. Ingrediente
+              fresco, sem firula — é o sabor que faz você voltar.
+            </p>
+            <p class="promo-sub">Escolha seus favoritos e peça agora pelo WhatsApp.</p>
+          </div>
+
+          <div class="promo-card anim-left">
+            <span class="promo-badge">Experiência</span>
+            <h2 class="promo-title">Mais que comida,<br />momento.</h2>
+            <p class="promo-text">
+              Ambiente descontraído, aroma de hambúrguer na chapa e aquele
+              atendimento que faz você se sentir em casa. Venha viver a
+              experiência Empório Burguer Gourmet.
+            </p>
+            <p class="promo-sub">Chega mais — o próximo pedido é só um clique.</p>
+          </div>
+        </div>
+
+        <div class="video-stack">
+          <div class="video-frame anim-right">
+            <video src="images/promo.mp4" autoplay muted loop playsinline></video>
+            <span class="video-tag">
+              <span class="video-tag-dot"></span>
+              Feito na hora
+            </span>
+          </div>
+          <div class="video-frame anim-right">
+            <video src="images/promo2.mp4" autoplay muted loop playsinline></video>
+            <span class="video-tag">
+              <span class="video-tag-dot"></span>
+              Direto da chapa
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="filters anim">
+        <button class="filter active" type="button" data-filter="todos">Todos</button>
+        <button class="filter" type="button" data-filter="burgers">Burgers</button>
+        <button class="filter" type="button" data-filter="pizzas">Pizzas</button>
+        <button class="filter" type="button" data-filter="bebidas">Bebidas</button>
+        <button class="filter" type="button" data-filter="sobremesas">Sobremesas</button>
+        <button class="filter" type="button" data-filter="porcoes">Porções</button>
+      </div>
+
+      <div class="menu-grid">
+        <article class="card anim-pop" data-id="1" data-name="Burger Queijo Branco" data-price="" data-cat="burgers">
+          <img class="card-img" src="images/burger-queijo-branco.png" alt="Burger Queijo Branco" />
+          <div class="card-body">
+            <h3 class="card-title">Burger Queijo Branco</h3>
+            <p class="card-desc">Blend artesanal com queijo branco cremoso.</p>
+            <div class="card-footer">
+              <span class="card-price placeholder-text">R$ --,--</span>
+              <button class="add-btn" type="button" aria-label="Adicionar Burger Queijo Branco" disabled>+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card anim-pop" data-id="2" data-name="Burger Bacon" data-price="" data-cat="burgers">
+          <img class="card-img" src="images/burger-bacon.png" alt="Burger Bacon" />
+          <div class="card-body">
+            <h3 class="card-title">Burger Bacon</h3>
+            <p class="card-desc">Bacon crocante e queijo derretendo no pão brioche.</p>
+            <div class="card-footer">
+              <span class="card-price placeholder-text">R$ --,--</span>
+              <button class="add-btn" type="button" aria-label="Adicionar Burger Bacon" disabled>+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card anim-pop" data-id="3" data-name="Pizza Meio a Meio" data-price="" data-cat="pizzas">
+          <img class="card-img" src="images/pizza-meio-a-meio.png" alt="Pizza Meio a Meio" />
+          <div class="card-body">
+            <h3 class="card-title">Pizza Meio a Meio</h3>
+            <p class="card-desc">Metade frango com barbecue, metade catupiry.</p>
+            <div class="card-footer">
+              <span class="card-price placeholder-text">R$ --,--</span>
+              <button class="add-btn" type="button" aria-label="Adicionar Pizza Meio a Meio" disabled>+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card anim-pop" data-id="4" data-name="Pizza Calabresa" data-price="" data-cat="pizzas">
+          <img class="card-img" src="images/pizza-calabresa.png" alt="Pizza Calabresa" />
+          <div class="card-body">
+            <h3 class="card-title">Pizza Calabresa</h3>
+            <p class="card-desc">Calabresa fatiada, cebola e azeitona.</p>
+            <div class="card-footer">
+              <span class="card-price placeholder-text">R$ --,--</span>
+              <button class="add-btn" type="button" aria-label="Adicionar Pizza Calabresa" disabled>+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card anim-pop" data-id="5" data-name="Escondidinho" data-price="" data-cat="porcoes">
+          <img class="card-img" src="images/escondidinho.png" alt="Escondidinho" />
+          <div class="card-body">
+            <h3 class="card-title">Escondidinho</h3>
+            <p class="card-desc">Purê cremoso gratinado dourado.</p>
+            <div class="card-footer">
+              <span class="card-price placeholder-text">R$ --,--</span>
+              <button class="add-btn" type="button" aria-label="Adicionar Escondidinho" disabled>+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card anim-pop" data-id="6" data-name="Arroz com Camarão" data-price="" data-cat="porcoes">
+          <img class="card-img" src="images/arroz-camarao.png" alt="Arroz com Camarão" />
+          <div class="card-body">
+            <h3 class="card-title">Arroz com Camarão</h3>
+            <p class="card-desc">Arroz especial com camarões empanados.</p>
+            <div class="card-footer">
+              <span class="card-price placeholder-text">R$ --,--</span>
+              <button class="add-btn" type="button" aria-label="Adicionar Arroz com Camarão" disabled>+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card anim-pop" data-id="7" data-name="Burger Bacon Caramelo" data-price="" data-cat="burgers">
+          <img class="card-img" src="images/burger-bacon-caramelo.png" alt="Burger Bacon Caramelo" />
+          <div class="card-body">
+            <h3 class="card-title">Burger Bacon Caramelo</h3>
+            <p class="card-desc">Queijo cremoso e bacon caramelizado.</p>
+            <div class="card-footer">
+              <span class="card-price placeholder-text">R$ --,--</span>
+              <button class="add-btn" type="button" aria-label="Adicionar Burger Bacon Caramelo" disabled>+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card anim-pop" data-id="8" data-name="Pizza Portuguesa" data-price="" data-cat="pizzas">
+          <img class="card-img" src="images/pizza-portuguesa.png" alt="Pizza Portuguesa" />
+          <div class="card-body">
+            <h3 class="card-title">Pizza Portuguesa</h3>
+            <p class="card-desc">Ovo, bacon, cebola e catupiry.</p>
+            <div class="card-footer">
+              <span class="card-price placeholder-text">R$ --,--</span>
+              <button class="add-btn" type="button" aria-label="Adicionar Pizza Portuguesa" disabled>+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card anim-pop" data-id="9" data-name="Batata Cheddar & Bacon" data-price="" data-cat="porcoes">
+          <img class="card-img" src="images/batata-cheddar-bacon.png" alt="Batata Cheddar & Bacon" />
+          <div class="card-body">
+            <h3 class="card-title">Batata Cheddar & Bacon</h3>
+            <p class="card-desc">Batata com cheddar, bacon e bolinhas de queijo.</p>
+            <div class="card-footer">
+              <span class="card-price placeholder-text">R$ --,--</span>
+              <button class="add-btn" type="button" aria-label="Adicionar Batata Cheddar & Bacon" disabled>+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card anim-pop" data-id="10" data-name="Pizza Calabresa e Carne Seca" data-price="" data-cat="pizzas">
+          <img class="card-img" src="images/pizza-calabresa-carne-seca.png" alt="Pizza Calabresa e Carne Seca" />
+          <div class="card-body">
+            <h3 class="card-title">Pizza Calabresa e Carne Seca</h3>
+            <p class="card-desc">Metade calabresa, metade carne seca com catupiry.</p>
+            <div class="card-footer">
+              <span class="card-price placeholder-text">R$ --,--</span>
+              <button class="add-btn" type="button" aria-label="Adicionar Pizza Calabresa e Carne Seca" disabled>+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card anim-pop" data-id="11" data-name="Pizza Pepperoni" data-price="" data-cat="pizzas">
+          <img class="card-img" src="images/pizza-pepperoni.png" alt="Pizza Pepperoni" />
+          <div class="card-body">
+            <h3 class="card-title">Pizza Pepperoni</h3>
+            <p class="card-desc">Pepperoni com borda recheada.</p>
+            <div class="card-footer">
+              <span class="card-price placeholder-text">R$ --,--</span>
+              <button class="add-btn" type="button" aria-label="Adicionar Pizza Pepperoni" disabled>+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card anim-pop" data-id="12" data-name="Pizza Frango e Carne Seca" data-price="" data-cat="pizzas">
+          <img class="card-img" src="images/pizza-frango-carne-seca.png" alt="Pizza Frango e Carne Seca" />
+          <div class="card-body">
+            <h3 class="card-title">Pizza Frango e Carne Seca</h3>
+            <p class="card-desc">Metade frango com catupiry, metade carne seca.</p>
+            <div class="card-footer">
+              <span class="card-price placeholder-text">R$ --,--</span>
+              <button class="add-btn" type="button" aria-label="Adicionar Pizza Frango e Carne Seca" disabled>+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card anim-pop" data-id="13" data-name="Pizza Carne Seca" data-price="" data-cat="pizzas">
+          <img class="card-img" src="images/pizza-carne-seca.png" alt="Pizza Carne Seca" />
+          <div class="card-body">
+            <h3 class="card-title">Pizza Carne Seca</h3>
+            <p class="card-desc">Carne seca, catupiry, cebolinha e azeitona.</p>
+            <div class="card-footer">
+              <span class="card-price placeholder-text">R$ --,--</span>
+              <button class="add-btn" type="button" aria-label="Adicionar Pizza Carne Seca" disabled>+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card anim-pop" data-id="14" data-name="Pizza Frango e Pastrami" data-price="" data-cat="pizzas">
+          <img class="card-img" src="images/pizza-frango-pastrami.png" alt="Pizza Frango e Pastrami" />
+          <div class="card-body">
+            <h3 class="card-title">Pizza Frango e Pastrami</h3>
+            <p class="card-desc">Metade frango cremoso, metade pastrami com tomate.</p>
+            <div class="card-footer">
+              <span class="card-price placeholder-text">R$ --,--</span>
+              <button class="add-btn" type="button" aria-label="Adicionar Pizza Frango e Pastrami" disabled>+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card anim-pop" data-id="15" data-name="Pizza Batata & Onion" data-price="" data-cat="pizzas">
+          <img class="card-img" src="images/pizza-batata-onion.png" alt="Pizza Batata & Onion" />
+          <div class="card-body">
+            <h3 class="card-title">Pizza Batata & Onion</h3>
+            <p class="card-desc">Metade batata com bacon, metade onion rings.</p>
+            <div class="card-footer">
+              <span class="card-price placeholder-text">R$ --,--</span>
+              <button class="add-btn" type="button" aria-label="Adicionar Pizza Batata & Onion" disabled>+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card anim-pop" data-id="16" data-name="Batata com Cheddar" data-price="" data-cat="porcoes">
+          <img class="card-img" src="images/batata-cheddar.png" alt="Batata com Cheddar" />
+          <div class="card-body">
+            <h3 class="card-title">Batata com Cheddar</h3>
+            <p class="card-desc">Batata frita com molho cheddar e acompanhamento.</p>
+            <div class="card-footer">
+              <span class="card-price placeholder-text">R$ --,--</span>
+              <button class="add-btn" type="button" aria-label="Adicionar Batata com Cheddar" disabled>+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card anim-pop" data-id="17" data-name="Espetinho de Carne" data-price="" data-cat="porcoes">
+          <img class="card-img" src="images/espetinho-carne.png" alt="Espetinho de Carne" />
+          <div class="card-body">
+            <h3 class="card-title">Espetinho de Carne</h3>
+            <p class="card-desc">Espetinhos grelhados com salada da casa.</p>
+            <div class="card-footer">
+              <span class="card-price placeholder-text">R$ --,--</span>
+              <button class="add-btn" type="button" aria-label="Adicionar Espetinho de Carne" disabled>+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card anim-pop" data-id="18" data-name="Pizza Portuguesa Borda" data-price="" data-cat="pizzas">
+          <img class="card-img" src="images/pizza-portuguesa-borda.png" alt="Pizza Portuguesa Borda" />
+          <div class="card-body">
+            <h3 class="card-title">Pizza Portuguesa Borda</h3>
+            <p class="card-desc">Portuguesa tradicional com borda recheada.</p>
+            <div class="card-footer">
+              <span class="card-price placeholder-text">R$ --,--</span>
+              <button class="add-btn" type="button" aria-label="Adicionar Pizza Portuguesa Borda" disabled>+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card anim-pop" data-id="19" data-name="Pizza Calabresa Borda" data-price="" data-cat="pizzas">
+          <img class="card-img" src="images/pizza-calabresa-borda.png" alt="Pizza Calabresa Borda" />
+          <div class="card-body">
+            <h3 class="card-title">Pizza Calabresa Borda</h3>
+            <p class="card-desc">Calabresa apimentada com cebola e borda recheada.</p>
+            <div class="card-footer">
+              <span class="card-price placeholder-text">R$ --,--</span>
+              <button class="add-btn" type="button" aria-label="Adicionar Pizza Calabresa Borda" disabled>+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card anim-pop" data-id="20" data-name="Pizza Camarão Borda" data-price="" data-cat="pizzas">
+          <img class="card-img" src="images/pizza-camarao-borda.png" alt="Pizza Camarão Borda" />
+          <div class="card-body">
+            <h3 class="card-title">Pizza Camarão Borda</h3>
+            <p class="card-desc">Metade camarão com catupiry, metade calabresa com onion.</p>
+            <div class="card-footer">
+              <span class="card-price placeholder-text">R$ --,--</span>
+              <button class="add-btn" type="button" aria-label="Adicionar Pizza Camarão Borda" disabled>+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card anim-pop" data-id="21" data-name="Pizza Carne Seca e Portuguesa" data-price="" data-cat="pizzas">
+          <img class="card-img" src="images/pizza-carne-seca-portuguesa.png" alt="Pizza Carne Seca e Portuguesa" />
+          <div class="card-body">
+            <h3 class="card-title">Pizza Carne Seca e Portuguesa</h3>
+            <p class="card-desc">Metade carne seca, metade portuguesa, borda recheada.</p>
+            <div class="card-footer">
+              <span class="card-price placeholder-text">R$ --,--</span>
+              <button class="add-btn" type="button" aria-label="Adicionar Pizza Carne Seca e Portuguesa" disabled>+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card anim-pop" data-id="22" data-name="Pizza Frango Borda" data-price="" data-cat="pizzas">
+          <img class="card-img" src="images/pizza-frango-borda.png" alt="Pizza Frango Borda" />
+          <div class="card-body">
+            <h3 class="card-title">Pizza Frango Borda</h3>
+            <p class="card-desc">Frango desfiado com catupiry, milho e borda recheada.</p>
+            <div class="card-footer">
+              <span class="card-price placeholder-text">R$ --,--</span>
+              <button class="add-btn" type="button" aria-label="Adicionar Pizza Frango Borda" disabled>+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card anim-pop" data-id="23" data-name="Pizza Frango Especial" data-price="" data-cat="pizzas">
+          <img class="card-img" src="images/pizza-frango-especial.png" alt="Pizza Frango Especial" />
+          <div class="card-body">
+            <h3 class="card-title">Pizza Frango Especial</h3>
+            <p class="card-desc">Frango, milho e catupiry com borda recheada.</p>
+            <div class="card-footer">
+              <span class="card-price placeholder-text">R$ --,--</span>
+              <button class="add-btn" type="button" aria-label="Adicionar Pizza Frango Especial" disabled>+</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card anim-pop" data-id="24" data-name="Pizza Portuguesa Especial" data-price="" data-cat="pizzas">
+          <img class="card-img" src="images/pizza-portuguesa-especial.png" alt="Pizza Portuguesa Especial" />
+          <div class="card-body">
+            <h3 class="card-title">Pizza Portuguesa Especial</h3>
+            <p class="card-desc">Portuguesa completa com cheddar e bacon.</p>
+            <div class="card-footer">
+              <span class="card-price placeholder-text">R$ --,--</span>
+              <button class="add-btn" type="button" aria-label="Adicionar Pizza Portuguesa Especial" disabled>+</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <div class="cart-overlay" id="cart-overlay" hidden></div>
+
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Carrinho" aria-hidden="true">
+    <div class="cart-header">
+      <h2 class="cart-heading">Seu pedido</h2>
+      <button class="cart-close" id="cart-close" type="button" aria-label="Fechar">×</button>
+    </div>
+
+    <div class="cart-items" id="cart-items">
+      <p class="cart-empty" id="cart-empty">Sacola vazia — adicione produtos do cardápio.</p>
+    </div>
+
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span>Total</span>
+        <span class="cart-total" id="cart-total">R$ 0,00</span>
+      </div>
+      <a class="btn-whatsapp" id="btn-whatsapp" href="#" target="_blank" rel="noopener" aria-disabled="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#ffffff" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.64 15.29 3.56 16.7L2 22L7.44 20.48C8.85 21.25 10.42 21.66 12.04 21.66H12.05C17.5 21.66 21.96 17.21 21.96 11.75C21.96 9.07 20.93 6.57 19.05 4.7C17.17 2.82 14.67 1.79 12.04 1.79V2ZM12.05 19.89H12.04C10.62 19.89 9.23 19.51 8 18.79L7.68 18.6L4.42 19.45L5.29 16.28L5.08 15.94C4.27 14.63 3.85 13.12 3.85 11.57C3.85 7.36 7.28 3.94 11.49 3.94C13.53 3.94 15.43 4.77 16.87 6.21C18.31 7.65 19.14 9.55 19.13 11.59C19.13 15.8 15.7 19.89 11.49 19.89H12.05ZM16.59 13.63C16.3 13.49 14.88 12.79 14.61 12.69C14.35 12.59 14.16 12.54 13.96 12.83C13.77 13.12 13.22 13.92 13.05 14.12C12.88 14.32 12.71 14.34 12.42 14.2C12.13 14.06 11.18 13.75 10.06 12.75C9.18 11.97 8.59 11.01 8.42 10.72C8.25 10.43 8.4 10.27 8.54 10.13C8.67 10.01 8.83 9.8 8.97 9.63C9.11 9.46 9.16 9.33 9.26 9.13C9.36 8.93 9.31 8.76 9.24 8.62C9.17 8.48 8.58 7.03 8.33 6.44C8.09 5.87 7.85 5.94 7.67 5.93C7.51 5.92 7.31 5.92 7.11 5.92C6.91 5.92 6.6 5.99 6.33 6.28C6.07 6.57 5.33 7.27 5.33 8.72C5.33 10.17 6.38 11.58 6.52 11.78C6.66 11.98 8.65 15.05 11.68 16.38C13.87 17.35 14.71 17.16 15.58 17.01C16.27 16.9 17.55 16.21 17.82 15.46C18.09 14.71 18.09 14.07 17.99 13.93C17.89 13.79 17.6 13.72 17.31 13.58L16.59 13.63Z" />
+        </svg>
+        Pedir no WhatsApp
+      </a>
+    </div>
+  </aside>
+
+  <div class="toast" id="toast" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
