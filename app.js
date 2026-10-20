@@ -49,7 +49,6 @@ function addItem(product) {
     cart.set(product.id, { ...product, qty: 1 });
   }
   renderCart();
-  showToast(product.name + " adicionado");
 }
 
 function changeQty(id, delta) {
