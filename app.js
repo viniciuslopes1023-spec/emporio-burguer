@@ -15,6 +15,7 @@ const cartItems = document.getElementById("cart-items");
 const cartEmpty = document.getElementById("cart-empty");
 const cartTotal = document.getElementById("cart-total");
 const btnWhatsapp = document.getElementById("btn-whatsapp");
+const toast = document.getElementById("toast");
 const orderbar = document.getElementById("orderbar");
 const orderbarCount = document.getElementById("orderbar-count");
 const orderbarTotal = document.getElementById("orderbar-total");
@@ -48,6 +49,7 @@ function addItem(product) {
     cart.set(product.id, { ...product, qty: 1 });
   }
   renderCart();
+  showToast(product.name + " adicionado");
 }
 
 function changeQty(id, delta) {
@@ -191,6 +193,28 @@ btnWhatsapp.addEventListener("click", (e) => {
     return;
   }
   btnWhatsapp.href = buildWhatsappLink();
+});
+
+// ===== Toast =====
+const toastText = document.getElementById("toast-text");
+const toastAction = document.getElementById("toast-action");
+let toastTimer;
+
+function showToast(msg) {
+  toastText.textContent = msg;
+  toast.hidden = false;
+  toast.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => {
+    toast.classList.remove("show");
+    setTimeout(() => (toast.hidden = true), 250);
+  }, 4000);
+}
+
+toastAction.addEventListener("click", () => {
+  toast.classList.remove("show");
+  toast.hidden = true;
+  openCart();
 });
 
 // ===== Botões de adicionar (cards + cardápio completo) =====
