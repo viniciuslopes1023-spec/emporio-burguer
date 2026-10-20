@@ -43,7 +43,6 @@ function addItem(product) {
   }
   renderCart();
   showToast(product.name + " adicionado");
-  openCart();
 }
 
 function changeQty(id, delta) {
@@ -160,17 +159,26 @@ btnWhatsapp.addEventListener("click", (e) => {
 });
 
 // ===== Toast =====
+const toastText = document.getElementById("toast-text");
+const toastAction = document.getElementById("toast-action");
 let toastTimer;
+
 function showToast(msg) {
-  toast.textContent = msg;
+  toastText.textContent = msg;
   toast.hidden = false;
   toast.classList.add("show");
   clearTimeout(toastTimer);
   toastTimer = setTimeout(() => {
     toast.classList.remove("show");
     setTimeout(() => (toast.hidden = true), 250);
-  }, 1600);
+  }, 4000);
 }
+
+toastAction.addEventListener("click", () => {
+  toast.classList.remove("show");
+  toast.hidden = true;
+  openCart();
+});
 
 // ===== Botões de adicionar (cards + cardápio completo) =====
 document.querySelectorAll(".add-btn").forEach((btn) => {
