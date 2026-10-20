@@ -516,10 +516,23 @@
         <h2 class="menu-title">Tudo o que sai<br />da nossa chapa.</h2>
         <p class="menu-sub">Preço de cada item da casa. Toque no <strong>+</strong> para montar seu pedido e enviar direto no WhatsApp.</p>
       </div>
-      <div class="fm-grid">
-        <div class="fm-col anim-left">
-          <h3 class="fm-cat">Hambúrgueres</h3>
-          <ul class="fm-list">
+
+      <nav class="fm-nav" id="fm-nav">
+        <a class="fm-chip" href="#cat-hamburgueres">Hambúrgueres</a>
+        <a class="fm-chip" href="#cat-entradas-e-porcoes">Entradas e Porções</a>
+        <a class="fm-chip" href="#cat-pizzas-premium">Pizzas Premium</a>
+        <a class="fm-chip" href="#cat-pizzas-promocionais">Pizzas Promocionais</a>
+        <a class="fm-chip" href="#cat-arabe">Árabe</a>
+        <a class="fm-chip" href="#cat-pratos-prontos">Pratos Prontos</a>
+        <a class="fm-chip" href="#cat-sucos-e-vitaminas">Sucos e Vitaminas</a>
+        <a class="fm-chip" href="#cat-refrigerantes">Refrigerantes</a>
+        <a class="fm-chip" href="#cat-bebidas">Bebidas</a>
+      </nav>
+
+      <div class="fm-sections">
+      <section class="fm-section" id="cat-hamburgueres">
+        <h3 class="fm-cat"><span class="fm-cat-name">Hambúrgueres</span><span class="fm-count">16 itens</span></h3>
+        <ul class="fm-list">
             <li class="fm-item">
               <div class="fm-info">
                 <span class="fm-name">SR Madruga</span>
@@ -680,11 +693,11 @@
                 <button class="add-btn fm-add" type="button" data-name="Chaves (Árabe)" data-price="36.0" aria-label="Adicionar Chaves (Árabe)">+</button>
               </div>
             </li>
-          </ul>
-        </div>
-        <div class="fm-col anim-left">
-          <h3 class="fm-cat">Entradas e Porções</h3>
-          <ul class="fm-list">
+        </ul>
+      </section>
+      <section class="fm-section" id="cat-entradas-e-porcoes">
+        <h3 class="fm-cat"><span class="fm-cat-name">Entradas e Porções</span><span class="fm-count">38 itens</span></h3>
+        <ul class="fm-list">
             <li class="fm-item">
               <div class="fm-info">
                 <span class="fm-name">Calabresa Acebolada 200g</span>
@@ -1065,11 +1078,11 @@
                 <button class="add-btn fm-add" type="button" data-name="Espeto de Picanha" data-price="14.0" aria-label="Adicionar Espeto de Picanha">+</button>
               </div>
             </li>
-          </ul>
-        </div>
-        <div class="fm-col anim-left">
-          <h3 class="fm-cat">Pizzas Premium</h3>
-          <ul class="fm-list">
+        </ul>
+      </section>
+      <section class="fm-section" id="cat-pizzas-premium">
+        <h3 class="fm-cat"><span class="fm-cat-name">Pizzas Premium</span><span class="fm-count">34 itens</span></h3>
+        <ul class="fm-list">
             <li class="fm-item">
               <div class="fm-info">
                 <span class="fm-name">3 Queijos</span>
@@ -1410,11 +1423,11 @@
                 <button class="add-btn fm-add" type="button" data-name="Camarão com 4 Queijos" data-price="70.0" aria-label="Adicionar Camarão com 4 Queijos">+</button>
               </div>
             </li>
-          </ul>
-        </div>
-        <div class="fm-col anim-left">
-          <h3 class="fm-cat">Pizzas Promocionais</h3>
-          <ul class="fm-list">
+        </ul>
+      </section>
+      <section class="fm-section" id="cat-pizzas-promocionais">
+        <h3 class="fm-cat"><span class="fm-cat-name">Pizzas Promocionais</span><span class="fm-count">8 itens</span></h3>
+        <ul class="fm-list">
             <li class="fm-item">
               <div class="fm-info">
                 <span class="fm-name">Mussarela</span>
@@ -1495,11 +1508,11 @@
                 <button class="add-btn fm-add" type="button" data-name="Frango" data-price="41.0" aria-label="Adicionar Frango">+</button>
               </div>
             </li>
-          </ul>
-        </div>
-        <div class="fm-col anim-left">
-          <h3 class="fm-cat">Árabe</h3>
-          <ul class="fm-list">
+        </ul>
+      </section>
+      <section class="fm-section" id="cat-arabe">
+        <h3 class="fm-cat"><span class="fm-cat-name">Árabe</span><span class="fm-count">9 itens</span></h3>
+        <ul class="fm-list">
             <li class="fm-item">
               <div class="fm-info">
                 <span class="fm-name">Empório Árabe Burguer</span>
@@ -1590,11 +1603,11 @@
                 <button class="add-btn fm-add" type="button" data-name="Empório Árabe Artesanal Evoluído" data-price="35.0" aria-label="Adicionar Empório Árabe Artesanal Evoluído">+</button>
               </div>
             </li>
-          </ul>
-        </div>
-        <div class="fm-col anim-left">
-          <h3 class="fm-cat">Pratos Prontos</h3>
-          <ul class="fm-list">
+        </ul>
+      </section>
+      <section class="fm-section" id="cat-pratos-prontos">
+        <h3 class="fm-cat"><span class="fm-cat-name">Pratos Prontos</span><span class="fm-count">6 itens</span></h3>
+        <ul class="fm-list">
             <li class="fm-item">
               <div class="fm-info">
                 <span class="fm-name">Arroz de Camarão</span>
@@ -1655,11 +1668,11 @@
                 <button class="add-btn fm-add" type="button" data-name="Carbonara" data-price="65.0" aria-label="Adicionar Carbonara">+</button>
               </div>
             </li>
-          </ul>
-        </div>
-        <div class="fm-col anim-left">
-          <h3 class="fm-cat">Sucos e Vitaminas</h3>
-          <ul class="fm-list">
+        </ul>
+      </section>
+      <section class="fm-section" id="cat-sucos-e-vitaminas">
+        <h3 class="fm-cat"><span class="fm-cat-name">Sucos e Vitaminas</span><span class="fm-count">13 itens</span></h3>
+        <ul class="fm-list">
             <li class="fm-item">
               <div class="fm-info">
                 <span class="fm-name">Suco de Abacaxi</span>
@@ -1790,11 +1803,11 @@
                 <button class="add-btn fm-add" type="button" data-name="Vitamina de Maracujá" data-price="12.0" aria-label="Adicionar Vitamina de Maracujá">+</button>
               </div>
             </li>
-          </ul>
-        </div>
-        <div class="fm-col anim-left">
-          <h3 class="fm-cat">Refrigerantes</h3>
-          <ul class="fm-list">
+        </ul>
+      </section>
+      <section class="fm-section" id="cat-refrigerantes">
+        <h3 class="fm-cat"><span class="fm-cat-name">Refrigerantes</span><span class="fm-count">13 itens</span></h3>
+        <ul class="fm-list">
             <li class="fm-item">
               <div class="fm-info">
                 <span class="fm-name">Sprite 350ml</span>
@@ -1925,11 +1938,11 @@
                 <button class="add-btn fm-add" type="button" data-name="Água com Gás" data-price="3.5" aria-label="Adicionar Água com Gás">+</button>
               </div>
             </li>
-          </ul>
-        </div>
-        <div class="fm-col anim-left">
-          <h3 class="fm-cat">Bebidas</h3>
-          <ul class="fm-list">
+        </ul>
+      </section>
+      <section class="fm-section" id="cat-bebidas">
+        <h3 class="fm-cat"><span class="fm-cat-name">Bebidas</span><span class="fm-count">17 itens</span></h3>
+        <ul class="fm-list">
             <li class="fm-item">
               <div class="fm-info">
                 <span class="fm-name">Cerveja Long Neck</span>
@@ -2100,8 +2113,8 @@
                 <button class="add-btn fm-add" type="button" data-name="Torre de Budweiser" data-price="60.0" aria-label="Adicionar Torre de Budweiser">+</button>
               </div>
             </li>
-          </ul>
-        </div>
+        </ul>
+      </section>
       </div>
     </div>
   </section>

@@ -43,6 +43,7 @@ function addItem(product) {
   }
   renderCart();
   showToast(product.name + " adicionado");
+  openCart();
 }
 
 function changeQty(id, delta) {
@@ -127,7 +128,11 @@ function openCart() {
   cartDrawer.classList.add("open");
   cartDrawer.setAttribute("aria-hidden", "false");
   cartOverlay.hidden = false;
-  requestAnimationFrame(() => cartOverlay.classList.add("open"));
+  if (typeof requestAnimationFrame === "function") {
+    requestAnimationFrame(() => cartOverlay.classList.add("open"));
+  } else {
+    cartOverlay.classList.add("open");
+  }
   document.body.style.overflow = "hidden";
 }
 
@@ -198,27 +203,48 @@ document.querySelectorAll(".filter").forEach((filterBtn) => {
 });
 
 // ===== Animações de scroll =====
-const animObserver = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("in");
-        animObserver.unobserve(entry.target);
-      }
-    });
-  },
-  { threshold: 0.08, rootMargin: "0px 0px -70px 0px" }
-);
+if ("IntersectionObserver" in window) {
+  const animObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("in");
+          animObserver.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.08, rootMargin: "0px 0px -70px 0px" }
+  );
 
-document
-  .querySelectorAll(".anim, .anim-left, .anim-right, .anim-pop")
-  .forEach((el) => animObserver.observe(el));
-
-// Fallback: se o navegador não suportar, mostra tudo
-if (!("IntersectionObserver" in window)) {
+  document
+    .querySelectorAll(".anim, .anim-left, .anim-right, .anim-pop")
+    .forEach((el) => animObserver.observe(el));
+} else {
   document
     .querySelectorAll(".anim, .anim-left, .anim-right, .anim-pop")
     .forEach((el) => el.classList.add("in"));
+}
+
+// ===== Scrollspy do cardápio completo =====
+const fmNav = document.getElementById("fm-nav");
+const fmSections = document.querySelectorAll(".fm-section");
+if (fmNav && fmSections.length && "IntersectionObserver" in window) {
+  const chips = fmNav.querySelectorAll(".fm-chip");
+  const spy = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        chips.forEach((chip) => {
+          chip.classList.toggle(
+            "active",
+            chip.getAttribute("href") === "#" + entry.target.id
+          );
+        });
+      });
+    },
+    { rootMargin: "-45% 0px -50% 0px" }
+  );
+  fmSections.forEach((s) => spy.observe(s));
 }
 
 renderCart();
