@@ -2261,6 +2261,29 @@
     <button class="toast-action" id="toast-action" type="button">Ver carrinho</button>
   </div>
 
+  <div class="orderbar" id="orderbar" hidden>
+    <div class="orderbar-inner">
+      <button class="orderbar-cart" id="orderbar-cart" type="button" aria-label="Abrir carrinho">
+        <span class="orderbag" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 8H18L19 21H5L6 8Z" stroke="#0a0a0a" stroke-width="1.8" stroke-linejoin="round" />
+            <path d="M9 8V6.5C9 4.57 10.57 3 12.5 3H13C14.93 3 16.5 4.57 16.5 6.5V8" stroke="#0a0a0a" stroke-width="1.8" stroke-linecap="round" />
+          </svg>
+          <span class="orderbar-count" id="orderbar-count">0</span>
+        </span>
+        <span class="orderbar-info">
+          <span class="orderbar-label" id="orderbar-label">Seu pedido</span>
+          <span class="orderbar-total" id="orderbar-total">R$ 0,00</span>
+        </span>
+      </button>
+
+      <div class="orderbar-actions">
+        <button class="btn-orderbar ghost" id="orderbar-view" type="button">Ver carrinho</button>
+        <a class="btn-orderbar solid" id="orderbar-wa" href="#" target="_blank" rel="noopener">Pedir no WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
   <script src="app.js?v=2"></script>
 </body>
 </html>

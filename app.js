@@ -16,6 +16,13 @@ const cartEmpty = document.getElementById("cart-empty");
 const cartTotal = document.getElementById("cart-total");
 const btnWhatsapp = document.getElementById("btn-whatsapp");
 const toast = document.getElementById("toast");
+const orderbar = document.getElementById("orderbar");
+const orderbarCount = document.getElementById("orderbar-count");
+const orderbarTotal = document.getElementById("orderbar-total");
+const orderbarLabel = document.getElementById("orderbar-label");
+const orderbarCart = document.getElementById("orderbar-cart");
+const orderbarView = document.getElementById("orderbar-view");
+const orderbarWa = document.getElementById("orderbar-wa");
 
 // ===== Carrinho =====
 function formatBRL(v) {
@@ -109,6 +116,34 @@ function renderCart() {
   });
 
   cartTotal.textContent = formatBRL(cartSum());
+  renderOrderBar();
+}
+
+// ===== Barra fixa do pedido (acesso rápido ao carrinho) =====
+function renderOrderBar() {
+  if (!orderbar) return;
+  const qty = cartQtyTotal();
+  const total = cartSum();
+
+  if (qty > 0) {
+    orderbar.hidden = false;
+    if (typeof requestAnimationFrame === "function") {
+      requestAnimationFrame(() => orderbar.classList.add("show"));
+    } else {
+      orderbar.classList.add("show");
+    }
+    orderbarCount.textContent = qty;
+    orderbarTotal.textContent = formatBRL(total);
+    orderbarLabel.textContent = qty === 1 ? "1 item no pedido" : qty + " itens no pedido";
+    orderbarWa.href = buildWhatsappLink();
+    document.body.classList.add("has-orderbar");
+  } else {
+    orderbar.classList.remove("show");
+    document.body.classList.remove("has-orderbar");
+    setTimeout(() => {
+      if (cartQtyTotal() === 0) orderbar.hidden = true;
+    }, 320);
+  }
 }
 
 function buildWhatsappLink() {
@@ -146,6 +181,8 @@ function closeCart() {
 cartBtn.addEventListener("click", openCart);
 cartClose.addEventListener("click", closeCart);
 cartOverlay.addEventListener("click", closeCart);
+if (orderbarCart) orderbarCart.addEventListener("click", openCart);
+if (orderbarView) orderbarView.addEventListener("click", openCart);
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") closeCart();
 });

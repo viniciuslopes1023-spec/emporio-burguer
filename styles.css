@@ -1609,6 +1609,158 @@ body {
   color: #c9c9c9;
 }
 
+/* ---------- BARRA FIXA DO PEDIDO ---------- */
+
+.orderbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 80;
+  padding: 12px 20px calc(12px + env(safe-area-inset-bottom));
+  background: rgba(10, 10, 10, 0.94);
+  backdrop-filter: blur(12px);
+  border-top: 1px solid rgba(255, 204, 39, 0.25);
+  transform: translateY(120%);
+  transition: transform 0.35s cubic-bezier(0.22, 0.8, 0.36, 1);
+}
+
+.orderbar.show {
+  transform: translateY(0);
+}
+
+.orderbar-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.orderbar-cart {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+}
+
+.orderbag {
+  position: relative;
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  background: var(--yellow);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+}
+
+.orderbar-count {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: var(--red);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.orderbar-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.orderbar-label {
+  font-size: 12.5px;
+  color: #9d9d9d;
+  letter-spacing: 0.4px;
+}
+
+.orderbar-total {
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.orderbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-orderbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 14.5px;
+  font-weight: 600;
+  padding: 13px 22px;
+  border-radius: 11px;
+  cursor: pointer;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: filter 0.2s, transform 0.2s, background 0.2s, border-color 0.2s;
+}
+
+.btn-orderbar.ghost {
+  background: transparent;
+  color: var(--white);
+  border: 1.5px solid rgba(255, 255, 255, 0.35);
+}
+
+.btn-orderbar.ghost:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.btn-orderbar.solid {
+  background: #25d366;
+  color: #06240f;
+  border: none;
+}
+
+.btn-orderbar.solid:hover {
+  filter: brightness(1.07);
+  transform: translateY(-2px);
+}
+
+/* espaço pro rodapé quando a barra aparece */
+body.has-orderbar {
+  padding-bottom: 96px;
+}
+
+@media (max-width: 640px) {
+  .orderbar-inner {
+    gap: 10px;
+  }
+
+  .orderbar-actions {
+    flex: 1;
+  }
+
+  .btn-orderbar {
+    flex: 1;
+    text-align: center;
+    padding: 13px 12px;
+    font-size: 13.5px;
+  }
+
+  .orderbar-label {
+    display: none;
+  }
+}
+
 /* ---------- RESPONSIVE ---------- */
 
 @media (max-width: 1100px) {
