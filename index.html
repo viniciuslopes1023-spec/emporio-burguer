@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="hero">
+  <header class="hero" id="inicio">
     <nav class="nav">
       <a class="nav-logo" href="#" aria-label="Empório Burguer Gourmet">
         <span class="logo-word">
@@ -20,30 +20,30 @@
         </span>
       </a>
 
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#">Restuarent</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#cardapio">Cardápio</a></li>
+        <li><a href="#cat-pizzas-premium">Pizzas</a></li>
+        <li><a href="#cat-entradas-e-porcoes">Porções</a></li>
+        <li><a href="#cat-bebidas">Bebidas</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
 
       <div class="nav-actions">
-        <a class="nav-login" href="#">Login</a>
-        <a class="btn btn-registration" href="#">Registration</a>
+        <a class="btn btn-registration" href="#cardapio">Fazer pedido</a>
       </div>
     </nav>
 
     <div class="hero-body">
       <div class="hero-left">
         <h1 class="hero-title">
-          Be the quickest<br />
-          <span class="underline-wrap">in your food
+          Do nosso balcão<br />
+          <span class="underline-wrap">pra sua mesa,
             <svg class="title-underline" viewBox="0 0 420 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <path d="M4 13C70 4 180 2 250 5C310 8 370 12 416 8" stroke="#FFCC27" stroke-width="5" stroke-linecap="round" />
             </svg>
           </span><br />
-          delivery.
+          sem enrolação.
         </h1>
 
         <svg class="title-arrow" viewBox="0 0 90 70" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -52,23 +52,22 @@
         </svg>
 
         <p class="hero-sub">
-          job is filling your tasteful with delicious food<br />
-          and with quick and free delivery
+          Comida de verdade, feita na hora e entregue enquanto ainda tá quente.<br />
+          Peça pelo WhatsApp e receba em minutos.
         </p>
 
         <div class="hero-cta">
-          <a class="btn btn-primary" href="#">
+          <a class="btn btn-primary" href="#cardapio">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <circle cx="11" cy="11" r="7" stroke="#0a0a0a" stroke-width="2" />
-              <path d="M16.5 16.5L21 21" stroke="#0a0a0a" stroke-width="2" stroke-linecap="round" />
+              <path d="M4 6h16M4 12h16M4 18h10" stroke="#0a0a0a" stroke-width="2" stroke-linecap="round" />
             </svg>
-            Find Restuarant
+            Ver cardápio
           </a>
-          <a class="btn btn-outline" href="#">
+          <a class="btn btn-outline" href="#como-pedir">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <path d="M4 2.5L13 8L4 13.5V2.5Z" stroke="#ffffff" stroke-width="1.6" stroke-linejoin="round" />
             </svg>
-            How to Order
+            Como pedir
           </a>
         </div>
 
@@ -79,7 +78,7 @@
             <span class="img-placeholder avatar">3</span>
             <span class="avatar-count">5M+</span>
           </div>
-          <span class="social-proof-text">Happy customers</span>
+          <span class="social-proof-text">clientes felizes</span>
         </div>
       </div>
 
@@ -87,10 +86,10 @@
         <img class="hero-image" src="images/hero.png" alt="Empório Burguer Gourmet — hambúrguer artesanal, batata frita e refrigerante" />
 
         <div class="review-card">
-          <p class="review-title">5000+ Happy<br />Customers</p>
+          <p class="review-title">5000+ clientes<br />felizes</p>
           <div class="review-bottom">
             <span class="stars">★★★★★</span>
-            <span class="review-count">(25k Review)</span>
+            <span class="review-count">(25 mil avaliações)</span>
           </div>
         </div>
       </div>
@@ -108,7 +107,7 @@
             <path d="M20 6H25" stroke="#FFCC27" stroke-width="2" stroke-linecap="round" />
           </svg>
         </span>
-        <span class="feature-label">Fastest Delivery</span>
+        <span class="feature-label">Entrega mais rápida</span>
       </div>
 
       <div class="feature">
@@ -121,7 +120,7 @@
             <path d="M18 5V8" stroke="#FFCC27" stroke-width="2" stroke-linecap="round" />
           </svg>
         </span>
-        <span class="feature-label">Best Quality Food</span>
+        <span class="feature-label">Melhor qualidade</span>
       </div>
 
       <div class="feature">
@@ -135,7 +134,7 @@
             <path d="M13.5 8C13.5 10.5 14.5 12 16.5 12C18.5 12 19.5 10.5 19.5 8" stroke="#FFCC27" stroke-width="2" stroke-linecap="round" />
           </svg>
         </span>
-        <span class="feature-label">Enjoy Your Meal</span>
+        <span class="feature-label">Aproveite a refeição</span>
       </div>
     </div>
   </header>
@@ -159,7 +158,7 @@
 
   <section class="menu" id="menu">
     <div class="menu-topbar anim">
-      <span class="menu-brand">Sabor <span class="amp">&amp;</span> Arte</span>
+      <span class="menu-brand">Cardápio</span>
       <button class="cart-btn" id="cart-btn" type="button" aria-label="Sacola">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <path d="M6 8H18L19 21H5L6 8Z" stroke="#ffffff" stroke-width="1.8" stroke-linejoin="round" />
@@ -2119,6 +2118,110 @@
             </li>
         </ul>
       </section>
+      </div>
+    </div>
+  </section>
+
+  <section class="howto" id="como-pedir">
+    <div class="menu-inner">
+      <div class="howto-head anim-left">
+        <span class="promo-badge">Como pedir</span>
+        <h2 class="menu-title">Pedir é em<br />três passos.</h2>
+        <p class="menu-sub">Sem cadastro, sem app. Você monta o pedido aqui e finaliza com a gente no WhatsApp.</p>
+      </div>
+
+      <ol class="howto-steps">
+        <li class="howto-step anim-pop">
+          <span class="howto-num">1</span>
+          <h3 class="howto-title">Escolha no cardápio</h3>
+          <p class="howto-text">Toque no <strong>+</strong> dos hambúrgueres, pizzas, porções e bebidas que você quer.</p>
+        </li>
+        <li class="howto-step anim-pop">
+          <span class="howto-num">2</span>
+          <h3 class="howto-title">Monte o carrinho</h3>
+          <p class="howto-text">Abra a sacola, ajuste quantidades e veja o total atualizado na hora.</p>
+        </li>
+        <li class="howto-step anim-pop">
+          <span class="howto-num">3</span>
+          <h3 class="howto-title">Finalize no WhatsApp</h3>
+          <p class="howto-text">Clique em <strong>Pedir no WhatsApp</strong>. O pedido já vai pronto com os itens e o total.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="contact" id="contato">
+    <div class="menu-inner">
+      <div class="contact-grid">
+        <div class="contact-info anim-left">
+          <span class="promo-badge">Contato</span>
+          <h2 class="menu-title">Vem pro<br />Empório.</h2>
+          <p class="menu-sub">Chama no WhatsApp, faz o pedido e vem buscar. Ou pede delivery e a gente leva até você.</p>
+
+          <ul class="contact-list">
+            <li class="contact-item">
+              <span class="contact-ico" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11Z" stroke="#FFCC27" stroke-width="2" stroke-linejoin="round" />
+                  <circle cx="12" cy="10" r="2.5" stroke="#FFCC27" stroke-width="2" />
+                </svg>
+              </span>
+              <div>
+                <span class="contact-label">Endereço</span>
+                <span class="contact-value">Rua Coronel Francisco Nunes Cavalcante s/n — Capistrano, Fortaleza-CE</span>
+              </div>
+            </li>
+            <li class="contact-item">
+              <span class="contact-ico" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11Z" stroke="#FFCC27" stroke-width="2" stroke-linejoin="round" />
+                  <circle cx="12" cy="10" r="2.5" stroke="#FFCC27" stroke-width="2" />
+                </svg>
+              </span>
+              <div>
+                <span class="contact-label">WhatsApp / Delivery</span>
+                <a class="contact-value contact-link" href="https://wa.me/5585999745068" target="_blank" rel="noopener">5585999745068</a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <span class="contact-ico" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="3" y="3" width="18" height="18" rx="5" stroke="#FFCC27" stroke-width="2" />
+                  <circle cx="12" cy="12" r="4" stroke="#FFCC27" stroke-width="2" />
+                  <circle cx="17.2" cy="6.8" r="1.1" fill="#FFCC27" />
+                </svg>
+              </span>
+              <div>
+                <span class="contact-label">Instagram</span>
+                <a class="contact-value contact-link" href="https://instagram.com/emporioburguergourmet" target="_blank" rel="noopener">@emporioburguergourmet</a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <span class="contact-ico" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="12" cy="12" r="8.5" stroke="#FFCC27" stroke-width="2" />
+                  <path d="M12 7.5V12l3 2" stroke="#FFCC27" stroke-width="2" stroke-linecap="round" />
+                </svg>
+              </span>
+              <div>
+                <span class="contact-label">Horário</span>
+                <span class="contact-value">Todos os dias, 11h às 23h</span>
+              </div>
+            </li>
+          </ul>
+
+          <a class="btn btn-primary contact-cta" href="https://wa.me/5585999745068" target="_blank" rel="noopener">
+            Chamar no WhatsApp
+          </a>
+        </div>
+
+        <div class="contact-media anim-right">
+          <img class="contact-img" src="images/hero.png" alt="Empório Burguer Gourmet" />
+          <div class="contact-badge">
+            <span class="contact-badge-num">2018</span>
+            <span class="contact-badge-text">desde então fazendo hambúrguer artesanal em Capistrano</span>
+          </div>
+        </div>
       </div>
     </div>
   </section>

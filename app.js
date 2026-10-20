@@ -255,4 +255,28 @@ if (fmNav && fmSections.length && "IntersectionObserver" in window) {
   fmSections.forEach((s) => spy.observe(s));
 }
 
+// ===== Menu do topo: destaca o link da seção visível =====
+const topNav = document.getElementById("nav-links");
+if (topNav && "IntersectionObserver" in window) {
+  const links = topNav.querySelectorAll("a");
+  const targets = links
+    .map((a) => document.querySelector(a.getAttribute("href")))
+    .filter(Boolean);
+  const navSpy = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        links.forEach((link) => {
+          link.classList.toggle(
+            "active",
+            link.getAttribute("href") === "#" + entry.target.id
+          );
+        });
+      });
+    },
+    { rootMargin: "-40% 0px -55% 0px" }
+  );
+  targets.forEach((t) => navSpy.observe(t));
+}
+
 renderCart();
