@@ -6,168 +6,168 @@
   "fonte": "Canva — Empório Cardápio 2024 (DAFXRFG8OVY)",
   "catalogo": [
     {
-      "foto": "burger-queijo-branco.png",
+      "foto": "burger-queijo-branco.webp",
       "categoria": "burgers",
       "nome": "SR Madruga",
       "desc": "Pão Brioche, Burguer Artesanal 150g, Queijo Coalho, Cebola, Tomate, Alface, Maionese e Molho da casa.",
       "preco": 25.0
     },
     {
-      "foto": "burger-bacon.png",
+      "foto": "burger-bacon.webp",
       "categoria": "burgers",
       "nome": "Godiniz",
       "desc": "Pão Brioche, 2 Smash Hambúrgueres Artesanal 90g, 2 fatias de mussarela, ovo, bacon, onion rings, cebola e molho da casa.",
       "preco": 27.0
     },
     {
-      "foto": "burger-bacon-caramelo.png",
+      "foto": "burger-bacon-caramelo.webp",
       "categoria": "burgers",
       "nome": "Chaves",
       "desc": "Pão Brioche, Hambúrguer Artesanal 150g, Queijo Prata Duplo, bacon, cheddar, onion rings e molho da casa.",
       "preco": 29.0
     },
     {
-      "foto": "pizza-meio-a-meio.png",
+      "foto": "pizza-meio-a-meio.webp",
       "categoria": "pizzas",
       "nome": "Frango com Requeijão",
       "desc": "Mussarela, frango desfiado, milho, cebola, azeitona e orégano.",
       "preco": 48.0
     },
     {
-      "foto": "pizza-calabresa.png",
+      "foto": "pizza-calabresa.webp",
       "categoria": "pizzas",
       "nome": "Calabresa",
       "desc": "Mussarela, calabresa, cebola, azeitona e orégano.",
       "preco": 44.0
     },
     {
-      "foto": "pizza-portuguesa.png",
+      "foto": "pizza-portuguesa.webp",
       "categoria": "pizzas",
       "nome": "Portuguesa",
       "desc": "Mussarela, ovo, cebola, azeitona e orégano.",
       "preco": 47.0
     },
     {
-      "foto": "pizza-calabresa-carne-seca.png",
+      "foto": "pizza-calabresa-carne-seca.webp",
       "categoria": "pizzas",
       "nome": "A Bolonhesa",
       "desc": "Bolonhesa, parmesão ralado, mussarela, azeitona e orégano.",
       "preco": 47.0
     },
     {
-      "foto": "pizza-pepperoni.png",
+      "foto": "pizza-pepperoni.webp",
       "categoria": "pizzas",
       "nome": "Mista",
       "desc": "Mussarela, presunto, tomate e azeitona com orégano.",
       "preco": 43.0
     },
     {
-      "foto": "pizza-frango-carne-seca.png",
+      "foto": "pizza-frango-carne-seca.webp",
       "categoria": "pizzas",
       "nome": "Frango com Calabresa",
       "desc": "Mussarela, frango, calabresa, azeitonas, cebola e orégano.",
       "preco": 52.0
     },
     {
-      "foto": "pizza-carne-seca.png",
+      "foto": "pizza-carne-seca.webp",
       "categoria": "pizzas",
       "nome": "Sertaneja",
       "desc": "Mussarela, carne do sol, pimentão, cebola e orégano.",
       "preco": 49.0
     },
     {
-      "foto": "pizza-frango-pastrami.png",
+      "foto": "pizza-frango-pastrami.webp",
       "categoria": "pizzas",
       "nome": "Frango com Cream Cheese",
       "desc": "Mussarela, frango, cream cheese, cebola e orégano.",
       "preco": 55.0
     },
     {
-      "foto": "pizza-batata-onion.png",
+      "foto": "pizza-batata-onion.webp",
       "categoria": "pizzas",
       "nome": "Calabresa com Onion Rings",
       "desc": "Mussarela, calabresa, onion rings, alho frito e orégano.",
       "preco": 50.0
     },
     {
-      "foto": "pizza-portuguesa-borda.png",
+      "foto": "pizza-portuguesa-borda.webp",
       "categoria": "pizzas",
       "nome": "Portuguesa (borda recheada)",
       "desc": "Mussarela, ovo, cebola, azeitona e orégano com borda recheada.",
       "preco": 47.0
     },
     {
-      "foto": "pizza-calabresa-borda.png",
+      "foto": "pizza-calabresa-borda.webp",
       "categoria": "pizzas",
       "nome": "Calabresa (borda recheada)",
       "desc": "Mussarela, calabresa apimentada, cebola e orégano com borda recheada.",
       "preco": 44.0
     },
     {
-      "foto": "pizza-camarao-borda.png",
+      "foto": "pizza-camarao-borda.webp",
       "categoria": "pizzas",
       "nome": "Empório Burguer Gourmet",
       "desc": "Mussarela, calabresa, onion rings e alho frito com borda recheada.",
       "preco": 56.0
     },
     {
-      "foto": "pizza-carne-seca-portuguesa.png",
+      "foto": "pizza-carne-seca-portuguesa.webp",
       "categoria": "pizzas",
       "nome": "Mista",
       "desc": "Mussarela, presunto, tomate e azeitona com orégano.",
       "preco": 43.0
     },
     {
-      "foto": "pizza-frango-borda.png",
+      "foto": "pizza-frango-borda.webp",
       "categoria": "pizzas",
       "nome": "Frango",
       "desc": "Mussarela, frango, cream cheese, azeitonas, cebola e orégano.",
       "preco": 44.0
     },
     {
-      "foto": "pizza-frango-especial.png",
+      "foto": "pizza-frango-especial.webp",
       "categoria": "pizzas",
       "nome": "Frango com Requeijão",
       "desc": "Mussarela, frango, requeijão, azeitona e orégano.",
       "preco": 48.0
     },
     {
-      "foto": "pizza-portuguesa-especial.png",
+      "foto": "pizza-portuguesa-especial.webp",
       "categoria": "pizzas",
       "nome": "A Moda da Casa",
       "desc": "Mussarela, presunto, milho, ervilha, calabresa, tomates e ovos.",
       "preco": 60.0
     },
     {
-      "foto": "arroz-camarao.png",
+      "foto": "arroz-camarao.webp",
       "categoria": "porcoes",
       "nome": "Arroz de Camarão Internacional",
       "desc": "200g de filé de camarão, arroz, molho branco, mussarela e batata.",
       "preco": 60.0
     },
     {
-      "foto": "escondidinho.png",
+      "foto": "escondidinho.webp",
       "categoria": "porcoes",
       "nome": "Escondidinho",
       "desc": "Purê cremoso gratinado com queijo.",
       "preco": null
     },
     {
-      "foto": "batata-cheddar-bacon.png",
+      "foto": "batata-cheddar-bacon.webp",
       "categoria": "porcoes",
       "nome": "Batata com Cheddar, Mini Coxinhas e Bacon",
       "desc": "Batata frita com molho cheddar, mini coxinhas e bacon.",
       "preco": 50.0
     },
     {
-      "foto": "batata-cheddar.png",
+      "foto": "batata-cheddar.webp",
       "categoria": "porcoes",
       "nome": "Batata com Molho de Queijo",
       "desc": "Batata frita com molho de queijo.",
       "preco": 34.0
     },
     {
-      "foto": "espetinho-carne.png",
+      "foto": "espetinho-carne.webp",
       "categoria": "porcoes",
       "nome": "Espeto de Picanha",
       "desc": "Espetinho grelhado com salada da casa.",
