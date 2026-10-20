@@ -1609,6 +1609,58 @@ body {
   color: #c9c9c9;
 }
 
+/* ---------- VOLTAR AO TOPO ---------- */
+
+.to-top {
+  position: fixed;
+  right: 22px;
+  bottom: 24px;
+  z-index: 70;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: none;
+  background: var(--yellow);
+  color: #0a0a0a;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(14px);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.5);
+  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s, filter 0.2s;
+}
+
+.to-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.to-top:hover {
+  filter: brightness(1.08);
+  transform: translateY(-3px);
+}
+
+/* sobe quando a barra de pedido está visível */
+body.has-orderbar .to-top {
+  bottom: 108px;
+}
+
+@media (max-width: 640px) {
+  .to-top {
+    right: 16px;
+    width: 44px;
+    height: 44px;
+  }
+
+  body.has-orderbar .to-top {
+    bottom: 100px;
+  }
+}
+
 /* ---------- BARRA FIXA DO PEDIDO ---------- */
 
 .orderbar {

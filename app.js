@@ -291,6 +291,19 @@ if (fmNav && fmSections.length && "IntersectionObserver" in window) {
   fmSections.forEach((s) => spy.observe(s));
 }
 
+// ===== Voltar ao topo =====
+const toTop = document.getElementById("to-top");
+if (toTop) {
+  const toggleToTop = () => {
+    toTop.classList.toggle("show", window.scrollY > 500);
+  };
+  window.addEventListener("scroll", toggleToTop, { passive: true });
+  toggleToTop();
+  toTop.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+}
+
 // ===== Menu do topo: destaca o link da seção visível =====
 const topNav = document.getElementById("nav-links");
 if (topNav && "IntersectionObserver" in window) {
