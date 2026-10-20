@@ -58,11 +58,41 @@ body {
   padding: 34px 0 0;
 }
 
-.nav-logo .logo-placeholder {
-  width: 64px;
-  height: 52px;
-  border-radius: 8px;
-  font-size: 8px;
+.nav-logo {
+  text-decoration: none;
+  display: inline-flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.logo-word {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.logo-emp {
+  font-family: "Baloo 2", cursive;
+  font-weight: 800;
+  font-size: 26px;
+  letter-spacing: 0.5px;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.logo-sub {
+  font-family: "Poppins", sans-serif;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: var(--yellow);
+  text-transform: uppercase;
+  padding-left: 2px;
+}
+
+.nav-logo:hover .logo-emp {
+  color: var(--yellow);
+  transition: color 0.2s;
 }
 
 .nav-links {
