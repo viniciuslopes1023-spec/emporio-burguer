@@ -1,6 +1,6 @@
 // ===== Configuração =====
 // Troque pelo número real da loja: código do país + DDD + número (sem espaços nem símbolos)
-const WHATSAPP_NUMERO = "5511999999999";
+const WHATSAPP_NUMERO = "5585999745068";
 const LOJA_NOME = "Empório Burguer Gourmet";
 
 // ===== Estado =====
@@ -167,15 +167,18 @@ function showToast(msg) {
   }, 1600);
 }
 
-// ===== Botões dos cards =====
-document.querySelectorAll(".card").forEach((card) => {
-  const btn = card.querySelector(".add-btn");
-  if (!btn || btn.disabled) return;
+// ===== Botões de adicionar (cards + cardápio completo) =====
+document.querySelectorAll(".add-btn").forEach((btn) => {
+  if (btn.disabled) return;
+  const card = btn.closest(".card");
+  const name = btn.dataset.name || (card && card.dataset.name);
+  const price = btn.dataset.price || (card && card.dataset.price);
+  if (!name || price === undefined || price === "") return;
   btn.addEventListener("click", () => {
     addItem({
-      id: card.dataset.id,
-      name: card.dataset.name,
-      price: parseFloat(card.dataset.price),
+      id: name,
+      name: name,
+      price: parseFloat(price),
     });
   });
 });

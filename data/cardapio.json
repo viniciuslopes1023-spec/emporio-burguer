@@ -1,0 +1,351 @@
+{
+  "empresa": "Empório Burguer Gourmet",
+  "whatsapp": "5585999745068",
+  "endereco": "Rua Coronel Francisco Nunes Cavalcante s/n - Capistrano-CE",
+  "instagram": "@emporioburguergourmet",
+  "fonte": "Canva — Empório Cardápio 2024 (DAFXRFG8OVY)",
+  "catalogo": [
+    {
+      "foto": "burger-queijo-branco.png",
+      "categoria": "burgers",
+      "nome": "SR Madruga",
+      "desc": "Pão Brioche, Burguer Artesanal 150g, Queijo Coalho, Cebola, Tomate, Alface, Maionese e Molho da casa.",
+      "preco": 25.0
+    },
+    {
+      "foto": "burger-bacon.png",
+      "categoria": "burgers",
+      "nome": "Godiniz",
+      "desc": "Pão Brioche, 2 Smash Hambúrgueres Artesanal 90g, 2 fatias de mussarela, ovo, bacon, onion rings, cebola e molho da casa.",
+      "preco": 27.0
+    },
+    {
+      "foto": "burger-bacon-caramelo.png",
+      "categoria": "burgers",
+      "nome": "Chaves",
+      "desc": "Pão Brioche, Hambúrguer Artesanal 150g, Queijo Prata Duplo, bacon, cheddar, onion rings e molho da casa.",
+      "preco": 29.0
+    },
+    {
+      "foto": "pizza-meio-a-meio.png",
+      "categoria": "pizzas",
+      "nome": "Frango com Requeijão",
+      "desc": "Mussarela, frango desfiado, milho, cebola, azeitona e orégano.",
+      "preco": 48.0
+    },
+    {
+      "foto": "pizza-calabresa.png",
+      "categoria": "pizzas",
+      "nome": "Calabresa",
+      "desc": "Mussarela, calabresa, cebola, azeitona e orégano.",
+      "preco": 44.0
+    },
+    {
+      "foto": "pizza-portuguesa.png",
+      "categoria": "pizzas",
+      "nome": "Portuguesa",
+      "desc": "Mussarela, ovo, cebola, azeitona e orégano.",
+      "preco": 47.0
+    },
+    {
+      "foto": "pizza-calabresa-carne-seca.png",
+      "categoria": "pizzas",
+      "nome": "A Bolonhesa",
+      "desc": "Bolonhesa, parmesão ralado, mussarela, azeitona e orégano.",
+      "preco": 47.0
+    },
+    {
+      "foto": "pizza-pepperoni.png",
+      "categoria": "pizzas",
+      "nome": "Mista",
+      "desc": "Mussarela, presunto, tomate e azeitona com orégano.",
+      "preco": 43.0
+    },
+    {
+      "foto": "pizza-frango-carne-seca.png",
+      "categoria": "pizzas",
+      "nome": "Frango com Calabresa",
+      "desc": "Mussarela, frango, calabresa, azeitonas, cebola e orégano.",
+      "preco": 52.0
+    },
+    {
+      "foto": "pizza-carne-seca.png",
+      "categoria": "pizzas",
+      "nome": "Sertaneja",
+      "desc": "Mussarela, carne do sol, pimentão, cebola e orégano.",
+      "preco": 49.0
+    },
+    {
+      "foto": "pizza-frango-pastrami.png",
+      "categoria": "pizzas",
+      "nome": "Frango com Cream Cheese",
+      "desc": "Mussarela, frango, cream cheese, cebola e orégano.",
+      "preco": 55.0
+    },
+    {
+      "foto": "pizza-batata-onion.png",
+      "categoria": "pizzas",
+      "nome": "Calabresa com Onion Rings",
+      "desc": "Mussarela, calabresa, onion rings, alho frito e orégano.",
+      "preco": 50.0
+    },
+    {
+      "foto": "pizza-portuguesa-borda.png",
+      "categoria": "pizzas",
+      "nome": "Portuguesa (borda recheada)",
+      "desc": "Mussarela, ovo, cebola, azeitona e orégano com borda recheada.",
+      "preco": 47.0
+    },
+    {
+      "foto": "pizza-calabresa-borda.png",
+      "categoria": "pizzas",
+      "nome": "Calabresa (borda recheada)",
+      "desc": "Mussarela, calabresa apimentada, cebola e orégano com borda recheada.",
+      "preco": 44.0
+    },
+    {
+      "foto": "pizza-camarao-borda.png",
+      "categoria": "pizzas",
+      "nome": "Empório Burguer Gourmet",
+      "desc": "Mussarela, calabresa, onion rings e alho frito com borda recheada.",
+      "preco": 56.0
+    },
+    {
+      "foto": "pizza-carne-seca-portuguesa.png",
+      "categoria": "pizzas",
+      "nome": "Mista",
+      "desc": "Mussarela, presunto, tomate e azeitona com orégano.",
+      "preco": 43.0
+    },
+    {
+      "foto": "pizza-frango-borda.png",
+      "categoria": "pizzas",
+      "nome": "Frango",
+      "desc": "Mussarela, frango, cream cheese, azeitonas, cebola e orégano.",
+      "preco": 44.0
+    },
+    {
+      "foto": "pizza-frango-especial.png",
+      "categoria": "pizzas",
+      "nome": "Frango com Requeijão",
+      "desc": "Mussarela, frango, requeijão, azeitona e orégano.",
+      "preco": 48.0
+    },
+    {
+      "foto": "pizza-portuguesa-especial.png",
+      "categoria": "pizzas",
+      "nome": "A Moda da Casa",
+      "desc": "Mussarela, presunto, milho, ervilha, calabresa, tomates e ovos.",
+      "preco": 60.0
+    },
+    {
+      "foto": "arroz-camarao.png",
+      "categoria": "porcoes",
+      "nome": "Arroz de Camarão Internacional",
+      "desc": "200g de filé de camarão, arroz, molho branco, mussarela e batata.",
+      "preco": 60.0
+    },
+    {
+      "foto": "escondidinho.png",
+      "categoria": "porcoes",
+      "nome": "Escondidinho",
+      "desc": "Purê cremoso gratinado com queijo.",
+      "preco": null
+    },
+    {
+      "foto": "batata-cheddar-bacon.png",
+      "categoria": "porcoes",
+      "nome": "Batata com Cheddar, Mini Coxinhas e Bacon",
+      "desc": "Batata frita com molho cheddar, mini coxinhas e bacon.",
+      "preco": 50.0
+    },
+    {
+      "foto": "batata-cheddar.png",
+      "categoria": "porcoes",
+      "nome": "Batata com Molho de Queijo",
+      "desc": "Batata frita com molho de queijo.",
+      "preco": 34.0
+    },
+    {
+      "foto": "espetinho-carne.png",
+      "categoria": "porcoes",
+      "nome": "Espeto de Picanha",
+      "desc": "Espetinho grelhado com salada da casa.",
+      "preco": 14.0
+    }
+  ],
+  "cardapio": {
+    "Hambúrgueres": [
+      { "nome": "SR Madruga", "desc": "Pão Brioche, Burguer Artesanal 150g, Queijo Coalho, Cebola, Tomate, Alface, Maionese e Molho da casa", "preco": 25.0 },
+      { "nome": "Godiniz", "desc": "Pão Brioche, 2 Smash Hambúrgueres Artesanal 90g, 2 fatias de mussarela, ovo, bacon, onion rings, cebola e molho da casa", "preco": 27.0 },
+      { "nome": "Bruxa do 71", "desc": "Pão Brioche, 2 Smash Hambúrgueres Artesanal 90g, duplo mussarela, coalho, cream cheese, bacon e molho da casa", "preco": 28.0 },
+      { "nome": "Kiko", "desc": "Pão Brioche, Hambúrguer Artesanal 150g, cheddar, super bacon e batata frita", "preco": 28.0 },
+      { "nome": "Chiquinha", "desc": "Pão Brioche, Duplo Burguer smash 90g, Duplo Queijo Mussarela, molho da casa e barbecue", "preco": 25.0 },
+      { "nome": "Professor Girafales", "desc": "Pão Brioche, Hambúrguer Artesanal 150g, Queijo Mussarela, Bacon, Cebola Caramelizada e Cheddar", "preco": 27.0 },
+      { "nome": "Chapolin Colorado", "desc": "Pão Brioche, Hambúrguer Artesanal 150g, mussarela, Sour Cream, Carne do Sol e Cebola Caramelizada", "preco": 29.0 },
+      { "nome": "Chaves", "desc": "Pão Brioche, Hambúrguer Artesanal 150g, Queijo Prata Duplo, Bacon, Cheddar, Onion Rings e molho da casa", "preco": 29.0 },
+      { "nome": "Nonho", "desc": "Pão Brioche, 2 Hambúrgueres Artesanal 150g, Mussarela, Cream Cheese, Carne do sol, Bacon, Ovo e Onion Rings", "preco": 34.0 },
+      { "nome": "Sr Barriga", "desc": "Pão Brioche, 2 Hambúrgueres Artesanal 150g, Mussarela, Cream Cheese, Carne do sol, Bacon, Ovo e Onion Rings", "preco": 40.0 },
+      { "nome": "Sr Barriga (2 fatias)", "desc": "Pão Brioche, 2 Hambúrgueres Artesanal 150g, Mussarela, Cream Cheese, carne do sol, bacon, ovo e onion rings", "preco": 46.0 },
+      { "nome": "Sr Madruga (Rústico)", "desc": "Pão Brioche, 2 Smash Hambúrgueres Artesanal 90g, mussarela, ovo, bacon, onion rings, cebola e molho da casa", "preco": 43.0 },
+      { "nome": "Sonho da Criança", "desc": "Sr Madruga ou Chiquinha, milkshake e batata", "preco": 46.0 },
+      { "nome": "Combos", "desc": "Torre de 2 litros, calabresa acebolada, batata frita e anéis de cebola empanado", "preco": 49.0 },
+      { "nome": "Beleza", "desc": "Pão Brioche, 2 Hambúrguer Artesanal 150g, Mussarela, Cream Cheese, carne do sol, bacon, ovo e onion rings", "preco": 53.0 },
+      { "nome": "Chaves (Árabe)", "desc": "Pão Brioche, Hambúrguer Artesanal 150g, Queijo Prata Duplo, Bacon, Cheddar, Onion Rings e molho especial", "preco": 36.0 }
+    ],
+    "Entradas e Porções": [
+      { "nome": "Calabresa Acebolada 200g", "desc": "Calabresa fatiada com cebola", "preco": 20.0 },
+      { "nome": "Calabresa Acebolada 400g", "desc": "Calabresa fatiada com cebola", "preco": 38.0 },
+      { "nome": "Filé 250g com Batata Frita", "desc": "Filé grelhado com batata frita", "preco": 38.0 },
+      { "nome": "Filé 250g com Molho de Queijo", "desc": "Filé grelhado com molho de queijo", "preco": 38.0 },
+      { "nome": "Camarão 500g", "desc": "Camarão frito ou grelhado", "preco": 60.0 },
+      { "nome": "Onion Rings", "desc": "Anéis de cebola empanados", "preco": 19.0 },
+      { "nome": "Onion Rings e Batata", "desc": "Anéis de cebola com batata frita", "preco": 19.0 },
+      { "nome": "Batata Simples 300g", "desc": "Batata frita crocante", "preco": 19.0 },
+      { "nome": "Batata Simples 600g", "desc": "Batata frita crocante", "preco": 36.0 },
+      { "nome": "Batata com Bacon", "desc": "Batata frita com bacon", "preco": 22.0 },
+      { "nome": "Batata Frango Requeijão Bacon", "desc": "Batata com frango, requeijão e bacon", "preco": 27.0 },
+      { "nome": "Batata Frango Cheddar Bacon", "desc": "Batata com frango, cheddar e bacon", "preco": 28.0 },
+      { "nome": "Batata Frango Cream Cheese Bacon", "desc": "Batata com frango, cream cheese e bacon", "preco": 35.0 },
+      { "nome": "Batata Carne do Sol Requeijão Bacon", "desc": "Batata com carne do sol, requeijão e bacon", "preco": 32.0 },
+      { "nome": "Batata Carne do Sol Cheddar Bacon", "desc": "Batata com carne do sol, cheddar e bacon", "preco": 34.0 },
+      { "nome": "Batata Carne do Sol Cream Cheese Bacon", "desc": "Batata com carne do sol, cream cheese e bacon", "preco": 42.0 },
+      { "nome": "Batata Molho de Queijo Bacon", "desc": "Batata com molho de queijo e bacon", "preco": 38.0 },
+      { "nome": "Batata Cheddar Mini Coxinhas Bacon", "desc": "Batata com cheddar, mini coxinhas e bacon", "preco": 50.0 },
+      { "nome": "Mini Pastéis Camarão Cream Cheese", "desc": "Pastel de camarão com cream cheese", "preco": 32.0 },
+      { "nome": "Mini Bolinhas Mista 15 unidades", "desc": "Bolinhas mistas (carne, frango, queijo, misto, carne do sol)", "preco": 17.0 },
+      { "nome": "Mini Pastéis Recheado 12 unidades", "desc": "Mini pastéis recheados", "preco": 18.0 },
+      { "nome": "Mini Coxinhas 15 unidades", "desc": "Coxinhas crocantes", "preco": 17.0 },
+      { "nome": "Mini Bolinha de Queijo 15 unidades", "desc": "Bolinhas de queijo empanadas", "preco": 17.0 },
+      { "nome": "Arroz Branco", "desc": "Arroz, farofa e vinagrete", "preco": 15.0 },
+      { "nome": "Arroz Grega", "desc": "Arroz, farofa e vinagrete", "preco": 18.0 },
+      { "nome": "Arroz Piamontese", "desc": "Arroz, farofa e vinagrete", "preco": 18.0 },
+      { "nome": "Baião de Dois", "desc": "Baião, farofa e vinagrete", "preco": 15.0 },
+      { "nome": "Cremoso", "desc": "Porção M / Porção G 3 pessoas", "preco": 18.0 },
+      { "nome": "Espeto de Linguiça", "desc": "Espeto de linguiça (1 unid)", "preco": 7.0 },
+      { "nome": "Espeto de Porco", "desc": "Espeto de carne de porco", "preco": 8.0 },
+      { "nome": "Espeto Bovino", "desc": "Espeto de carne bovina", "preco": 8.0 },
+      { "nome": "Espeto Frango com Bacon", "desc": "Espeto de frango com bacon", "preco": 8.0 },
+      { "nome": "Espeto de Cupim", "desc": "Espeto de cupim", "preco": 8.0 },
+      { "nome": "Espeto Cupim Especial", "desc": "Espeto de cupim especial", "preco": 10.0 },
+      { "nome": "Espeto de Maminha", "desc": "Espeto de maminha", "preco": 9.5 },
+      { "nome": "Espeto de Carne do Sol", "desc": "Espeto de carne do sol", "preco": 9.0 },
+      { "nome": "Espeto de Picanha Suína", "desc": "Espeto de picanha suína", "preco": 8.0 },
+      { "nome": "Espeto de Picanha", "desc": "Espeto de picanha", "preco": 14.0 }
+    ],
+    "Pizzas Premium": [
+      { "nome": "3 Queijos", "desc": "Mussarela, requeijão, parmesão, azeitonas e orégano", "preco": 43.0 },
+      { "nome": "4 Queijos", "desc": "Mussarela, requeijão, parmesão, azeitonas e orégano", "preco": 46.0 },
+      { "nome": "4 Queijos Especial", "desc": "Mussarela, requeijão e cheddar", "preco": 49.0 },
+      { "nome": "5 Queijos", "desc": "Mussarela, requeijão, cheddar, coalho, cream cheese, azeitonas e orégano", "preco": 53.0 },
+      { "nome": "Americana", "desc": "Mussarela, bacon, calabresa, ovo, cebola e orégano", "preco": 49.0 },
+      { "nome": "Napoletana", "desc": "Mussarela, parmesão ralado, tomate e orégano", "preco": 36.0 },
+      { "nome": "Egg & Bacon", "desc": "Mussarela, bacon, cebola, cream cheese, ovo e orégano", "preco": 42.0 },
+      { "nome": "Frango com Cheddar", "desc": "Mussarela, frango, cheddar, azeitonas, cebola e orégano", "preco": 50.0 },
+      { "nome": "Frango com Cream Cheese", "desc": "Mussarela, frango, cream cheese, azeitonas, cebola e orégano", "preco": 55.0 },
+      { "nome": "Frango", "desc": "Mussarela, frango, milho, cebola, azeitona e orégano", "preco": 44.0 },
+      { "nome": "Frango com Requeijão", "desc": "Mussarela, frango, requeijão, azeitona e orégano", "preco": 48.0 },
+      { "nome": "Portuguesa", "desc": "Mussarela, ovo, cebola, azeitona e orégano", "preco": 47.0 },
+      { "nome": "Sertaneja", "desc": "Mussarela, carne do sol, pimentão, cebola e orégano", "preco": 49.0 },
+      { "nome": "Frango com Calabresa", "desc": "Mussarela, frango, calabresa, azeitonas, cebola e orégano", "preco": 52.0 },
+      { "nome": "Mussarela", "desc": "Mussarela, tomate e azeitona com orégano", "preco": 39.0 },
+      { "nome": "Mista", "desc": "Mussarela, presunto, tomate e azeitona com orégano", "preco": 43.0 },
+      { "nome": "Bacon", "desc": "Mussarela, bacon, cebola, azeitona e orégano", "preco": 45.0 },
+      { "nome": "A Bolonhesa", "desc": "Bolonhesa, parmesão ralado, mussarela, azeitona e orégano", "preco": 47.0 },
+      { "nome": "Calabresa", "desc": "Mussarela, calabresa, cebola, azeitona e orégano", "preco": 44.0 },
+      { "nome": "Calabresa com Requeijão", "desc": "Mussarela, calabresa, requeijão, cebola, azeitona e orégano", "preco": 47.0 },
+      { "nome": "Calabresa com Cheddar", "desc": "Mussarela, calabresa, cheddar, cebola, azeitonas e orégano", "preco": 50.0 },
+      { "nome": "Calabresa com Cream Cheese", "desc": "Mussarela, calabresa, cream cheese, azeitonas e orégano", "preco": 58.0 },
+      { "nome": "Tropical", "desc": "Mussarela, frango desfiado ao molho, milho, ervilha, ovos e catupiry", "preco": 50.0 },
+      { "nome": "Pizza da Saudade", "desc": "Mussarela, coxinhas, cebola crispy, cream cheese, barbecue e orégano", "preco": 60.0 },
+      { "nome": "Carne do Sol com Cream Cheese", "desc": "Mussarela, carne do sol, cream cheese, pimentão, cebola e azeitona", "preco": 60.0 },
+      { "nome": "Carne do Sol com Requeijão", "desc": "Mussarela, carne do sol, requeijão, azeitonas e orégano", "preco": 52.0 },
+      { "nome": "Carne do Sol com Cheddar", "desc": "Mussarela, carne do sol, cheddar, pimentão, cebola e azeitonas", "preco": 55.0 },
+      { "nome": "A Moda da Casa", "desc": "Mussarela, presunto, milho, ervilha, calabresa, tomates e ovos", "preco": 60.0 },
+      { "nome": "Pizza da Alegria", "desc": "Mussarela, cheddar, batata frita, bacon e orégano", "preco": 60.0 },
+      { "nome": "Cheddar Batata Bacon", "desc": "Mussarela, cheddar, batata frita, bacon e orégano", "preco": 48.0 },
+      { "nome": "Calabresa com Onion Rings", "desc": "Mussarela, calabresa, onion rings, alho frito e orégano", "preco": 50.0 },
+      { "nome": "Empório Burguer Gourmet", "desc": "Mussarela, calabresa, onion rings e alho frito", "preco": 56.0 },
+      { "nome": "Camarão com 3 Queijos", "desc": "Mussarela, camarão, alho e requeijão", "preco": 65.0 },
+      { "nome": "Camarão com 4 Queijos", "desc": "Mussarela, camarão, alho e requeijão", "preco": 70.0 }
+    ],
+    "Pizzas Promocionais": [
+      { "nome": "Mussarela", "desc": "Mussarela, tomate e azeitona com orégano", "preco": 36.0 },
+      { "nome": "Portuguesa", "desc": "Mussarela, ovo, presunto, cebola, azeitona e orégano", "preco": 39.0 },
+      { "nome": "Calabresa com Requeijão", "desc": "Mussarela, calabresa, requeijão, cebola, azeitona e orégano", "preco": 39.0 },
+      { "nome": "Calabresa com Cheddar", "desc": "Mussarela, calabresa, cheddar, cebola, azeitonas e orégano", "preco": 42.0 },
+      { "nome": "Carne do Sol com Cheddar", "desc": "Mussarela, carne do sol, cheddar, pimentão, cebola e azeitonas", "preco": 32.0 },
+      { "nome": "Carne do Sol com Requeijão", "desc": "Mussarela, carne do sol, requeijão, azeitona e orégano", "preco": 35.0 },
+      { "nome": "Frango com Requeijão", "desc": "Mussarela, frango, milho, cebola, azeitona e orégano", "preco": 39.0 },
+      { "nome": "Frango", "desc": "Mussarela, frango, milho, cebola, azeitona e orégano", "preco": 41.0 }
+    ],
+    "Árabe": [
+      { "nome": "Empório Árabe Burguer", "desc": "2 carnes de hambúrgueres industrializados", "preco": 18.0 },
+      { "nome": "Empório Árabe Arrochado", "desc": "Carne bovina, 2 fatias de queijo coalho, azeitona, alface, tomate e barbecue", "preco": 22.0 },
+      { "nome": "Empório Árabe Arretado", "desc": "Carne bovina, 2 fatias de queijo coalho, azeitona, alface, tomate e barbecue", "preco": 23.0 },
+      { "nome": "Empório Árabe Assanhado", "desc": "Carne bovina, 2 fatias de queijo coalho, azeitona, alface, tomate e barbecue", "preco": 25.0 },
+      { "nome": "Empório Árabe Diferentão", "desc": "Frango, cheddar, bacon, calabresa, alface, tomate e molho especial", "preco": 25.0 },
+      { "nome": "Empório Árabe Assanhado Turbinado", "desc": "Frango, cheddar, bacon, calabresa, alface, tomate e molho especial", "preco": 27.0 },
+      { "nome": "Empório Árabe Diferentão Evoluído", "desc": "Carne do sol, 2 fatias de queijo coalho, bacon, cebola caramelizada, alface, tomate e molho especial", "preco": 28.0 },
+      { "nome": "Empório Árabe Artesanal", "desc": "2 smash artesanal, mussarela, ovo, bacon, onion rings e molho", "preco": 30.0 },
+      { "nome": "Empório Árabe Artesanal Evoluído", "desc": "2 smash artesanal, mussarela, carne do sol, cream cheese, bacon, cebola caramelizada e molho", "preco": 35.0 }
+    ],
+    "Pratos Prontos": [
+      { "nome": "Arroz de Camarão", "desc": "250g de filé de camarão, misturado no arroz, molho branco, mussarela e batata", "preco": 80.0 },
+      { "nome": "Arroz de Camarão Internacional", "desc": "250g de filé de camarão, misturado no arroz, molho branco, mussarela e batata", "preco": 60.0 },
+      { "nome": "Arroz de Carne do Sol Internacional", "desc": "200g de carne do sol, misturado no arroz, molho branco e mussarela", "preco": 60.0 },
+      { "nome": "Arroz de Frango Internacional", "desc": "200g de frango, misturado no arroz, molho branco e mussarela", "preco": 60.0 },
+      { "nome": "Bavette Alfredo", "desc": "250g de filé de camarão, macarrão spaguete ou ninho, molho bavette alfredo, parmesão e batata", "preco": 50.0 },
+      { "nome": "Carbonara", "desc": "Macarrão spaguete, parmesão, bacon e ovos", "preco": 65.0 }
+    ],
+    "Sucos e Vitaminas": [
+      { "nome": "Suco de Abacaxi", "desc": "Copo ou jarra", "preco": 9.0 },
+      { "nome": "Suco de Acerola", "desc": "Copo ou jarra", "preco": 9.0 },
+      { "nome": "Suco de Manga", "desc": "Copo ou jarra", "preco": 9.0 },
+      { "nome": "Suco de Goiaba", "desc": "Copo ou jarra", "preco": 9.0 },
+      { "nome": "Suco de Caja", "desc": "Copo ou jarra", "preco": 9.0 },
+      { "nome": "Suco de Maracujá", "desc": "Copo ou jarra", "preco": 10.0 },
+      { "nome": "Suco de Laranja com Hortela", "desc": "Copo ou jarra", "preco": 20.0 },
+      { "nome": "Vitamina de Abacaxi", "desc": "Copo ou jarra", "preco": 10.0 },
+      { "nome": "Vitamina de Acerola", "desc": "Copo ou jarra", "preco": 10.0 },
+      { "nome": "Vitamina de Manga", "desc": "Copo ou jarra", "preco": 10.0 },
+      { "nome": "Vitamina de Goiaba", "desc": "Copo ou jarra", "preco": 10.0 },
+      { "nome": "Vitamina de Caja", "desc": "Copo ou jarra", "preco": 10.0 },
+      { "nome": "Vitamina de Maracujá", "desc": "Copo ou jarra", "preco": 12.0 }
+    ],
+    "Refrigerantes": [
+      { "nome": "Sprite 350ml", "desc": "Refrigerante", "preco": 6.5 },
+      { "nome": "Fanta Uva 350ml", "desc": "Refrigerante", "preco": 6.5 },
+      { "nome": "Fanta Laranja 350ml", "desc": "Refrigerante", "preco": 6.5 },
+      { "nome": "Coca 350ml", "desc": "Refrigerante", "preco": 7.0 },
+      { "nome": "Coca Zero 350ml", "desc": "Refrigerante", "preco": 7.0 },
+      { "nome": "Guaraná 1L", "desc": "Refrigerante", "preco": 10.0 },
+      { "nome": "Coca Cola 1L", "desc": "Refrigerante", "preco": 10.0 },
+      { "nome": "Cajuina São Geraldo 1L", "desc": "Refrigerante", "preco": 10.0 },
+      { "nome": "Guaraná 2L", "desc": "Refrigerante", "preco": 16.0 },
+      { "nome": "Coca Cola 2L", "desc": "Refrigerante", "preco": 16.0 },
+      { "nome": "Cajuina São Geraldo 2L", "desc": "Refrigerante", "preco": 16.0 },
+      { "nome": "Água sem Gás", "desc": "Água mineral", "preco": 3.0 },
+      { "nome": "Água com Gás", "desc": "Água mineral gaseificada", "preco": 3.5 }
+    ],
+    "Bebidas": [
+      { "nome": "Cerveja Long Neck", "desc": "Doses", "preco": 12.0 },
+      { "nome": "Skol Buchudinha", "desc": "Doses", "preco": 6.0 },
+      { "nome": "Bohemia Buchudinha", "desc": "Doses", "preco": 11.0 },
+      { "nome": "Budweiser Long Neck", "desc": "Doses", "preco": 11.0 },
+      { "nome": "Stella Artois Long Neck", "desc": "Doses", "preco": 11.0 },
+      { "nome": "Spaten Long Neck", "desc": "Doses", "preco": 12.0 },
+      { "nome": "Ypioca 150", "desc": "Doses", "preco": 9.0 },
+      { "nome": "Caipirinha", "desc": "Cachaça, limão, açúcar e gelo", "preco": 15.0 },
+      { "nome": "Caipiroska de Orloff", "desc": "Vodka, limão, açúcar e gelo", "preco": 17.0 },
+      { "nome": "Caipiroska de Smirnoff", "desc": "Vodka, limão, açúcar e gelo", "preco": 20.0 },
+      { "nome": "Gin Tônica", "desc": "Gin, água tônica, limão e alecrim", "preco": 28.0 },
+      { "nome": "Gin Tropical", "desc": "Gin, suco de laranja, Red Bull tropical e laranja", "preco": 30.0 },
+      { "nome": "Torre de Chopp", "desc": "Torre de chopp", "preco": 36.0 },
+      { "nome": "Torre de Skol", "desc": "Torre de cerveja", "preco": 45.0 },
+      { "nome": "Torre de Brahma", "desc": "Torre de cerveja", "preco": 65.0 },
+      { "nome": "Torre de Heineken", "desc": "Torre de cerveja", "preco": 60.0 },
+      { "nome": "Torre de Budweiser", "desc": "Torre de cerveja", "preco": 60.0 }
+    ]
+  }
+}
